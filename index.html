@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>STREET FIGHTER</title>
+
+        <!-- CSS-->
+        <link rel-"stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="assets/javascript/game.js"></script>
+    </head>
+    
+    <body background="assets/images/suzaku-castle.jpg">
+        <header class="container-fluid">
+            <div class="row justify-content-lg-center title">
+                <div class="col-md-auto">
+                <img class="logo" src="assets/images/streetfighter-logo.png">
+                </div>
+            </div>
+        </header>
+
+        <div id="stage" class="container-fluid justify-content-lg-center">
+            <div class="row justify-content-lg-center title">
+                CHOOSE YOUR CHARACTER!
+            </div>
+            <div class="row justify-content-lg-center">
+                <div id="char1" class="col-md-auto char"><img class="charImg" src="assets/images/ryu.png"></div>
+                <div id="char2" class="col-md-auto char"><img class="charImg" src="assets/images/ken.png"></div>
+                <div id="char3" class="col-md-auto char"><img class="charImg" src="assets/images/blanka.png"></div>
+                <div id="char4" class="col-md-auto char"><img class="charImg" src="assets/images/chunli.png"></div>
+                <div id="char5" class="col-md-auto char"><img class="charImg" src="assets/images/mbison.png"></div>
+                <div id="char6" class="col-md-auto char"><img class="charImg" src="assets/images/cammy.png"></div>
+                <div id="char7" class="col-md-auto char"><img class="charImg" src="assets/images/sakura.png"></div>
+            </div>
+        </div>
+
+        <div id="game" class="container-fluid justify-content-lg-center">
+            <div class="row justify-content-lg-center title">
+                FIGHT!
+            </div>
+            <div id="userChar"></div>
+            <div id="enemyChar"></div>
+        </div>
+    </body>
+
+</html>
