@@ -14,7 +14,7 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="assets/javascript/game.js"></script>
     </head>
-    
+
     <body background="assets/images/suzaku-castle.jpg">
         <header class="container-fluid">
             <div class="row justify-content-lg-center title">
@@ -28,14 +28,14 @@
             <div class="row justify-content-lg-center title">
                 CHOOSE YOUR CHARACTER!
             </div>
-            <div class="row justify-content-lg-center">
-                <div id="char1" class="col-md-auto char"><img class="charImg" src="assets/images/ryu.png"></div>
-                <div id="char2" class="col-md-auto char"><img class="charImg" src="assets/images/ken.png"></div>
-                <div id="char3" class="col-md-auto char"><img class="charImg" src="assets/images/blanka.png"></div>
-                <div id="char4" class="col-md-auto char"><img class="charImg" src="assets/images/chunli.png"></div>
-                <div id="char5" class="col-md-auto char"><img class="charImg" src="assets/images/mbison.png"></div>
-                <div id="char6" class="col-md-auto char"><img class="charImg" src="assets/images/cammy.png"></div>
-                <div id="char7" class="col-md-auto char"><img class="charImg" src="assets/images/sakura.png"></div>
+            <div class="row justify-content-lg-center chars">
+                <div id="ryu" class="col-md-auto char"><img class="charImg" src="assets/images/ryu.png"></div>
+                <div id="ken" class="col-md-auto char"><img class="charImg" src="assets/images/ken.png"></div>
+                <div id="blanka" class="col-md-auto char"><img class="charImg" src="assets/images/blanka.png"></div>
+                <div id="chunli" class="col-md-auto char"><img class="charImg" src="assets/images/chunli.png"></div>
+                <div id="mbison" class="col-md-auto char"><img class="charImg" src="assets/images/mbison.png"></div>
+                <div id="cammy" class="col-md-auto char"><img class="charImg" src="assets/images/cammy.png"></div>
+                <div id="sakura" class="col-md-auto char"><img class="charImg" src="assets/images/sakura.png"></div>
             </div>
         </div>
 
@@ -43,7 +43,8 @@
             <div class="row justify-content-lg-center title">
                 FIGHT!
             </div>
-            <div id="userChar"></div>
+            <div id="userChar" class="row justify-content-lg-center"></div>
+            <div id="VS" class="row justify-content-lg-center title">VS</div>
             <div id="enemyChar"></div>
         </div>
     </body>

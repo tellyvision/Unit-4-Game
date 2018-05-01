@@ -1,23 +1,25 @@
 $(document).ready(function() {
 
-//Set Global Variables Here
-var userChar = "";
+    //Set Global Variables Here
+    var userChar = "";
 
-$("#game").hide()
-$("#stage").show()
+    $("#game").hide()
+    $("#stage").show()
 
-//Set Functions Here
+    //Set Functions Here
 
-//Call Functions Here
+    //Call Functions Here
 
+    $("#stage").on("click", ".char", function character(){
+        //hides stage, sets game 
+        $("#stage").hide()
+        $("#game").show()
+        //set character to clicked
+        $(this).removeClass("charImg")
+        $("#userChar").html(this);
+        //sets remaining characters as enemyChar
+        $(".chars").appendTo("#enemyChar")
+    })
 
-$("#stage").on("click", ".char", function character(){
-    $("#userChar")
-    $("#stage").hide()
-    $("#game").show()
-})
-
-//pseudo
-//when a character is clicked, that char is userChar, all other char are enemy chars
 
 })
