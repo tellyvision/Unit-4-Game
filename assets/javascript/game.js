@@ -15,11 +15,14 @@ $(document).ready(function() {
         $("#stage").hide()
         $("#game").show()
         //set character to clicked
-        $(this).removeClass("charImg")
         $("#userChar").html(this);
+        //$("#userChar").remove(attr("href"))
         //sets remaining characters as enemyChar
         $(".chars").appendTo("#enemyChar")
+
+        $("#userChar").removeClass("charImg")
     })
+
 
 
 })
